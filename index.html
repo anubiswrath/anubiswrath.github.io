@@ -26,8 +26,8 @@
   <link rel="stylesheet" href="style.css">
 
   <style>
-    .green-outline { outline: 1px solid green; }
-    .red-outline   { outline: 1px solid red;   }
+    .aw-debug-green { outline: 1px solid green; }
+    .aw-debug-red   { outline: 1px solid red;   }
   </style>
 
   <!-- ===================== STRUCTURED DATA ===================== -->
@@ -86,34 +86,34 @@
 </head>
 
 <body>
-<div class="v-0493e0a9">
+<div class="aw-site-shell">
 
   <!-- ============================================================
        HEADER
        ============================================================ -->
-  <header class="v-f3e02dd2">
-    <div class="v-f3e02dd2__inner">
+  <header class="aw-hdr">
+    <div class="aw-hdr__inner">
 
-      <div class="v-b339b3bc">
+      <div class="aw-logo-box">
         <a href="/">
           <img src="assets/tower-rush.webp" width="125" height="50" alt="Anubis Wrath">
         </a>
       </div>
 
-      <input type="checkbox" id="menu-toggle" class="menu-toggle">
-      <label for="menu-toggle" class="burger">
+      <input type="checkbox" id="aw-menu-chk" class="aw-menu-chk">
+      <label for="aw-menu-chk" class="aw-burger">
         <span></span><span></span><span></span>
       </label>
 
-      <nav class="v-82035ec5">
-        <ul class="v-82035ec5__list">
+      <nav class="aw-nav">
+        <ul class="aw-nav__list">
           <li><a href="https://sanpinnorma.ru/go-play">ОБЗОР</a></li>
           <li><a href="https://sanpinnorma.ru/go-play">КАЗИНО</a></li>
         </ul>
       </nav>
 
-      <div class="header-buttons right">
-        <a href="#" class="registr-btn">Приветственный бонус до 150%</a>
+      <div class="aw-hdr-actions right">
+        <a href="#" class="aw-register-cta">Приветственный бонус до 150%</a>
       </div>
 
     </div>
@@ -123,21 +123,21 @@
        MAIN
        ============================================================ -->
   <main>
-    <div class="v-1c06d76e">
+    <div class="aw-main-content">
 
       <!-- ---------- Hero / Play block ---------- -->
-      <section class="play-block">
+      <section class="aw-gamespot">
 
-        <div class="play-block__left">
+        <div class="aw-gamespot__left">
           <h1 data-heading-tag="H1">Anubis Wrath: обзор слота — демо, коэффициенты и где играть на деньги</h1>
 
-          <div class="play-block__box">
-            <div class="play-block__bg"
+          <div class="aw-gamespot__box">
+            <div class="aw-gamespot__bg"
                  style="background-image:url(assets/tower-rush-juego-dinero.webp)"></div>
 
-            <div class="play-block__box-inner">
+            <div class="aw-gamespot__box-inner">
 
-              <a href="https://sanpinnorma.ru/go-play" class="play-block__button play-block__button--casino">
+              <a href="https://sanpinnorma.ru/go-play" class="aw-gamespot__button aw-gamespot__button--casino">
                 <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <g clip-path="url(#clip0_960_206)">
                     <path d="M9.53622 8.94276V15.057C9.53622 15.4951 9.7436 15.8284 10.1584 16.057C10.5733 16.2856 10.9782 16.2665 11.3733 15.9999L16.2918 12.9713C16.6671 12.7427 16.8547 12.4189 16.8547 11.9998C16.8547 11.5808 16.6671 11.257 16.2918 11.0284L11.3733 7.99986C10.9782 7.73319 10.5733 7.71415 10.1584 7.94272C9.7436 8.17129 9.53622 8.50462 9.53622 8.94276ZM12.4992 23.4285C10.8597 23.4285 9.31894 23.1282 7.87697 22.5279C6.435 21.9282 5.18067 21.1142 4.114 20.0856C3.04734 19.057 2.2031 17.8474 1.58126 16.457C0.958647 15.0665 0.647339 13.5808 0.647339 11.9998C0.647339 10.4189 0.958647 8.93316 1.58126 7.54272C2.2031 6.15224 3.04734 4.94272 4.114 3.91415C5.18067 2.88558 6.435 2.07109 7.87697 1.47072C9.31894 0.871094 10.8597 0.571289 12.4992 0.571289C14.1387 0.571289 15.6794 0.871094 17.1214 1.47072C18.5634 2.07109 19.8177 2.88558 20.8844 3.91415C21.9511 4.94272 22.7952 6.15224 23.4171 7.54272C24.0397 8.93316 24.3511 10.4189 24.3511 11.9998C24.3511 13.5808 24.0397 15.0665 23.4171 16.457C22.7952 17.8474 21.9511 19.057 20.8844 20.0856C19.8177 21.1142 18.5634 21.9282 17.1214 22.5279C15.6794 23.1282 14.1387 23.4285 12.4992 23.4285Z" fill="#040A19"/>
@@ -151,12 +151,12 @@
                 Играйте на реальные деньги
               </a>
 
-              <div class="play-block__button play-btn">Поиграть в демоверсию</div>
+              <div class="aw-gamespot__button aw-play-demo">Поиграть в демоверсию</div>
             </div>
 
-            <div class="play-block__iframe">
+            <div class="aw-gamespot__iframe">
               <!-- src заменить на актуальный URL демо-игры -->
-              <iframe class="v-fe8d08fb"
+              <iframe class="aw-frame"
                       src="assets/demo-game.html"
                       width="100%" height="400"
                       frameborder="0"
@@ -169,7 +169,7 @@
         </div>
 
         <!-- ---------- Обзорная таблица ---------- -->
-        <div class="play-block__right">
+        <div class="aw-gamespot__right">
           <h2 id="h2_0" data-heading-tag="H2">Anubis Wrath — ключевые факты</h2>
 
           <table>
@@ -198,7 +198,7 @@
       </section>
 
       <!-- ---------- Что такое Anubis Wrath ---------- -->
-      <section class="v-cd82f5ce v-549c6390 v-5e22772d__table">
+      <section class="aw-sect aw-text-body aw-table-wrap">
         <h2 id="h2_1" data-heading-tag="H2">Что такое Anubis Wrath? Обзор игры</h2>
         <p>Anubis Wrath — видеослот от студии PG Soft, посвящённый гневу Анубиса, египетского бога загробного мира и хранителя весов Маат (Ma'at). Разработчик выбрал сетку 5×4 с 1024 способами выигрыша — это даёт игроку больше шансов на выигрышную комбинацию, чем в слотах с фиксированными линиями выплат.</p>
         <p>PG Soft — один из крупных провайдеров игр для онлайн-казино: в портфолио студии более 150 тайтлов и свыше 100 лицензированных партнёров по всему миру. Игроки уже знают разработчика по слотам Mystic Potion, Pinata Wins и Egypt's Book of Mystery — последний тоже обращается к египетской тематике, но строит бонусную механику иначе.</p>
@@ -212,21 +212,21 @@
       </section>
 
       <!-- ---------- CTA ---------- -->
-      <div class="v-cd82f5ce">
-        <div class="v-cd82f5ce__inner">
-          <a href="https://sanpinnorma.ru/go-play" class="v-dd108701">Начните игру!</a>
+      <div class="aw-sect">
+        <div class="aw-sect__inner">
+          <a href="https://sanpinnorma.ru/go-play" class="aw-btn-pulse">Начните игру!</a>
         </div>
       </div>
 
       <!-- ---------- Демо ---------- -->
-      <section class="v-cd82f5ce v-549c6390 v-5e22772d__table">
+      <section class="aw-sect aw-text-body aw-table-wrap">
         <h2 id="h2_2" data-heading-tag="H2">Демо Anubis Wrath — играть бесплатно перед реальными ставками</h2>
         <p>Запустить Anubis Wrath бесплатно можно прямо в браузере — без регистрации и без скачивания клиента. Такую возможность предоставляют агрегаторы вроде SlotCatalog, а также обзорные ресурсы, например BETO Slots, которые встраивают демо-версию слота на свои страницы.</p>
         <p>Тестирование Anubis Wrath демо перед ставками на реальные деньги — распространённая практика в индустрии. Она позволяет оценить частоту срабатывания бонусов и почувствовать волатильность слота, не рискуя банкроллом.</p>
       </section>
 
       <!-- ---------- Почему стоит играть ---------- -->
-      <section class="v-cd82f5ce v-549c6390 v-5e22772d__table">
+      <section class="aw-sect aw-text-body aw-table-wrap">
         <h2 id="h2_3" data-heading-tag="H2">Почему стоит играть в Anubis Wrath?</h2>
         <p>Anubis Wrath привлекает атмосферой: тёмная палитра, детализированные символы и звуковое сопровождение создают ощущение присутствия в гробнице Анубиса. Но помимо визуала у слота есть измеримый потенциал выплат.</p>
         <p>В тестовой сессии на 100 спинах баланс колебался скачками, типичными для высоковолатильных слотов: длинные серии без крупных выигрышей сменялись резкими всплесками. Бонусная игра Free Spins сработала дважды за сто вращений, а крупнейшая одиночная выплата — 340x от ставки — пришла благодаря комбинации множителей на Multiplier Reel.</p>
@@ -244,7 +244,7 @@
       </section>
 
       <!-- ---------- Топ-3 казино ---------- -->
-      <section class="v-cd82f5ce v-549c6390 v-5e22772d__table">
+      <section class="aw-sect aw-text-body aw-table-wrap">
         <h2 id="h2_4" data-heading-tag="H2">Топ-3 казино для игры в Anubis Wrath на деньги</h2>
         <p>Выбор казино для игры в Anubis Wrath на деньги стоит строить на нескольких объективных критериях: наличие лицензии, приём платежей в рублях, размер и условия приветственного бонуса, а также процедура верификации KYC (Know Your Customer), которая подтверждает личность игрока перед выводом средств.</p>
         <ul>
@@ -291,7 +291,7 @@
       </section>
 
       <!-- ---------- Как играть ---------- -->
-      <section class="v-cd82f5ce v-549c6390 v-5e22772d__table">
+      <section class="aw-sect aw-text-body aw-table-wrap">
         <h2 id="h2_5" data-heading-tag="H2">Как играть в Anubis Wrath — символы, механика и размер ставок</h2>
         <p>Чтобы начать игру в Anubis Wrath, достаточно пройти несколько шагов.</p>
         <ol>
@@ -321,7 +321,7 @@
       </section>
 
       <!-- ---------- Особенности ---------- -->
-      <section class="v-cd82f5ce v-549c6390 v-5e22772d__table">
+      <section class="aw-sect aw-text-body aw-table-wrap">
         <h2 id="h2_6" data-heading-tag="H2">Особенности Anubis Wrath</h2>
         <p>Визуально Anubis Wrath переносит игрока в декорации Древнего Египта: берега Нила, раскалённые пески и гробницы с иероглифами создают фон для вращений. В центре повествования — символ Анубиса, который появляется не только как платящая комбинация, но и как триггер ключевой механики слота — Multiplier Reel.</p>
         <p>Multiplier Reel добавляет на барабаны случайные множители от 3x до 500x. Когда в выигрышной комбинации участвует символ Анубиса, множители с этой позиции суммируются и применяются к итоговому выигрышу. Например, если на одном спине одновременно активны три множителя — 50x, 100x и 350x, — итоговый коэффициент выигрыша по этой комбинации может достигнуть суммы всех трёх значений, что резко увеличивает потенциальную выплату.</p>
@@ -335,7 +335,7 @@
       </section>
 
       <!-- ---------- Банкролл-стратегия ---------- -->
-      <section class="v-cd82f5ce v-549c6390 v-5e22772d__table">
+      <section class="aw-sect aw-text-body aw-table-wrap">
         <h2 id="h2_7" data-heading-tag="H2">Банкролл-стратегия — безопасная игра на высоковолатильном слоте</h2>
         <p>Для игры на высоковолатильном слоте вроде Anubis Wrath разумно придерживаться простого правила: банкролл должен покрывать 100-150 спинов при выбранном размере ставки. Если ставка составляет 1, комфортный банкролл на сессию — от 100 до 150 единиц.</p>
         <ul>
@@ -347,7 +347,7 @@
       </section>
 
       <!-- ---------- Альтернативы ---------- -->
-      <section class="v-cd82f5ce v-549c6390 v-5e22772d__table">
+      <section class="aw-sect aw-text-body aw-table-wrap">
         <h2 id="h2_8" data-heading-tag="H2">Лучшие альтернативы Anubis Wrath</h2>
         <p>Игрокам, которым понравилась тема Anubis Wrath, стоит обратить внимание на другие египетские слоты со схожей механикой выплат.</p>
         <ul>
@@ -359,7 +359,7 @@
       </section>
 
       <!-- ---------- Итоги ---------- -->
-      <section class="v-cd82f5ce v-549c6390 v-5e22772d__table">
+      <section class="aw-sect aw-text-body aw-table-wrap">
         <h2 id="h2_9" data-heading-tag="H2">Итоги и экспертная оценка Anubis Wrath</h2>
         <p>Anubis Wrath подходит игрокам, которые ценят высокий потенциал выплат и готовы к волатильной динамике баланса. Слот не рассчитан на долгие сессии с частыми мелкими выигрышами — его сила в редких, но крупных комбинациях через Multiplier Reel.</p>
 
@@ -382,14 +382,14 @@
       </section>
 
       <!-- ---------- Примечания ---------- -->
-      <section class="v-cd82f5ce v-549c6390 v-5e22772d__table">
+      <section class="aw-sect aw-text-body aw-table-wrap">
         <h2 id="h2_10" data-heading-tag="H2">Дата обновления и примечания</h2>
         <p>Обзор Anubis Wrath подготовлен и проверен командой фактчекеров: материал собрал EvgeniyBlack, данные по RTP и механикам проверил IvanPronin, редакционную вычитку выполнил 4LUCK. Обзор обновлён с учётом актуальных параметров слота и условий казино.</p>
         <p>Напоминаем: игра в казино связана с риском потери средств. Используйте только те суммы, которые готовы потерять, и обращайтесь за помощью при признаках игровой зависимости.</p>
       </section>
 
       <!-- ---------- FAQ ---------- -->
-      <section class="v-cd82f5ce v-549c6390 v-5e22772d__table">
+      <section class="aw-sect aw-text-body aw-table-wrap">
         <h2 id="h2_11" data-heading-tag="H2">Часто задаваемые вопросы</h2>
 
         <h3 data-heading-tag="H3">Какой RTP у слота Anubis Wrath?</h3>
@@ -403,8 +403,8 @@
       </section>
 
       <!-- ---------- Дата обновления ---------- -->
-      <section class="v-27bbdd43">
-        <div class="v-27bbdd43__box">Актуально на 2026-11-05</div>
+      <section class="aw-updated">
+        <div class="aw-updated__box">Актуально на 2026-11-05</div>
       </section>
 
     </div>
@@ -413,25 +413,25 @@
   <!-- ============================================================
        FOOTER
        ============================================================ -->
-  <footer class="v-3b61bec7">
-    <div class="v-3b61bec7__main">
-      <div class="v-3b61bec7__inner">
+  <footer class="aw-footer">
+    <div class="aw-footer__main">
+      <div class="aw-footer__inner">
 
-        <div class="v-3b61bec7__info">
-          <div class="v-b339b3bc">
+        <div class="aw-footer__info">
+          <div class="aw-logo-box">
             <a href="/">
               <img src="assets/tower-rush-logo.webp" width="230" height="100" alt="Anubis Wrath">
             </a>
           </div>
 
-          <ul class="socials">
+          <ul class="aw-social-row">
             <li><a href="https://x.com/GalaxsysLLC"        target="_blank" rel="nofollow"><img src="assets/x.svg"         width="36" height="36" alt="Twitter"></a></li>
             <li><a href="https://www.instagram.com/galaxsys.co/" target="_blank" rel="nofollow"><img src="assets/instagram.svg" width="36" height="36" alt="Instagram"></a></li>
             <li><a href="https://www.linkedin.com/company/galaxsys/" target="_blank" rel="nofollow"><img src="assets/linkedin.svg" width="36" height="36" alt="LinkedIn"></a></li>
             <li><a href="https://www.facebook.com/Galaxsysllc" target="_blank" rel="nofollow"><img src="assets/facebook.svg" width="36" height="36" alt="Facebook"></a></li>
           </ul>
 
-          <div class="v-3b61bec7__images">
+          <div class="aw-footer__images">
             <a href="https://www.gambleaware.org/"      rel="nofollow"><img src="assets/gambleaware.svg" width="96" height="56" alt="GambleAware"></a>
             <a href="https://www.bestchange.com/"       rel="nofollow"><img src="assets/best-change.svg" width="96" height="56" alt="BestChange"></a>
             <a href="https://www.gamcare.org.uk/"       rel="nofollow"><img src="assets/gamcare.svg"     width="96" height="56" alt="GamCare"></a>
@@ -440,15 +440,15 @@
           </div>
         </div>
 
-        <div class="v-3b61bec7__links">
-          <nav class="v-b82a7c5e">
-            <ul class="v-b82a7c5e__list">
+        <div class="aw-footer__links">
+          <nav class="aw-fnav">
+            <ul class="aw-fnav__list">
               <li><a href="#">Политика конфиденциальности</a></li>
               <li><a href="#">Условия использования</a></li>
             </ul>
           </nav>
-          <nav class="v-b82a7c5e">
-            <ul class="v-b82a7c5e__list">
+          <nav class="aw-fnav">
+            <ul class="aw-fnav__list">
               <li><a href="#">Контакты</a></li>
               <li><a href="mailto:info@anubiswrath.github.io">info@anubiswrath.github.io</a></li>
             </ul>
@@ -458,8 +458,8 @@
       </div>
     </div>
 
-    <div class="v-3b61bec7__bottom">
-      <div class="v-59d6352b">©2026 anubiswrath.github.io Все права защищены</div>
+    <div class="aw-footer__bottom">
+      <div class="aw-copyline">©2026 anubiswrath.github.io Все права защищены</div>
     </div>
   </footer>
 
@@ -471,4 +471,4 @@
         data-website-id="131af53f-cfdc-4394-8ee3-7d0e53a03b19"
         data-tag="style_1"></script>
 </body>
-</html>   
+</html>
